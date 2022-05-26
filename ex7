@@ -7,7 +7,8 @@
 <title>Insert title here</title>
 </head>
 <body>
-<!-- String으로 변수 선언 -->
+
+String으로 변수 선언
 <%!
 String id = "admin";
 String ps = "adminpw";
@@ -15,23 +16,24 @@ String id1 = "admin";
 String ps1 = "adminpw1";
 String ghkr;
 %>
-<!-- id와 비밀번호가 맞는지 확인 -->
+
+id와 비밀번호가 맞는지 확인
 <%
-//맞을 경우
+맞을 경우 "맞습니다"를 출력
 if((id == id1) && (ps == ps1)){
 	ghkr = "맞습니다";
 }
-//틀릴 경우
+틀릴 경우 "틀렸습니다"를 출력
 else{
 	ghkr = "틀렸습니다";
 }
 
 %>
-<!-- 표현식 -->
+사용자 아이디,비밀번호와 로그인 아이디,비밀번호의 확인 여부를 표현 
 사용자 아이디 = <%=id %>
 사용자 비밀번호 = <%=ps %><Br>
 로그인 아이디 = <%=id1 %>
-로그인 아이디 = <%=ps1 %><Br>
+로그인 비밀번호 = <%=ps1 %><Br>
 확인 여부 = <%=ghkr %>
 
 </body>
