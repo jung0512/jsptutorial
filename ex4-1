@@ -23,7 +23,8 @@ int i;
 
 
 성적처리(총점, 평균 계산) 반복문
-for (i = 0; i < 3; i++), i = 2까지 반복
+i = 2까지 반복
+for (i = 0; i < 3; i++){
 i=3이 되면서 for문 빠져나옴
 for(i = 0; i<kor.length; i++){		
 %>
@@ -34,7 +35,7 @@ for(i = 0; i<kor.length; i++){
 	avg = total / 3;	
 
 %>
-
+title 배열을 이용하여 과목명을 표현하고 total과 avg로 총점과 평균을 표현
 <%=title[i] %> = <%=total %> <Br>       
 <%=title[i+1] %> = <%=avg %>
 </body>
