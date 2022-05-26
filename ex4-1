@@ -30,8 +30,10 @@ for(i = 0; i<kor.length; i++){
 %>
 <%=title[i] %> = <%=kor[i] %><Br>
 <%
-	total +=+kor[i];	
+	kor[i]가 1증가 할때마다 total와 kor[i]의 i값과 더해준다
+	total +=kor[i];	
 }	
+	avg는 한번만 실해하면 되기때문에 반복하지 않는다
 	avg = total / 3;	
 
 %>
