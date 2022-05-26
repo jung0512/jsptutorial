@@ -1,1 +1,32 @@
-# jsp-
+jsp 웹페이지 기보구조
+
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+--사용자에게 보여지는 뷰 페이지 내용
+</body>
+</html>
+
+jsp 코드 표기법
+<%@     %> : 지시문 => jsp 페이지 속성 지정
+<%        %> : 스크립트릿 =>가장 많이 쓰임. 자바 코드 블록, 변수(지역) 선언만 가능
+<%!       %> : 선언문 => 전역변수 혹은 메소드 선언
+<%=      %> : 표현식 => 웹브라우저에 직접 결과 값을 출력
+<%--   주석   --%> : 여러줄의 주석
+//: 한줄 짜리 주석
+<jsp:action>       </jsp:action>: 액션태그 => 다른 페이지를 포함 혹은 이동을 명령
+
+______________________________________________________________________
+자바 API 패키지: 자바 개발자들이 미리 구현해 놓은 클래스, 인터페이스들의 라이브러리.
+-java.leng: 자바 프로그래밍 기본 기능 제고(생략가능)))
+-java.util: 프로그램에 유용한 유틸리티
+-java.io: 입출력에 관한 기능 제공
+-java.sql: sql관련 기능
+-java.time: 날짜와 시간 관련 기능 제공
