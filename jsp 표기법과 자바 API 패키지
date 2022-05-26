@@ -1,4 +1,4 @@
-jsp 웹페이지 기보구조
+jsp 웹페이지 기본구조
 
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
